@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Papier!</title>
+</head>
+
+<body>
+    <header class="container">
+        <h1>Papier, Kamień, Nożyce!</h1>
+        <div class="container-menu">
+            <div class="noz glob">
+              <button id="noz" class="globalek"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></button>  
+            </div>
+            <div class="pap glob">
+            <button id="papier" class="globalek"><i class="fa fa-hand-paper-o" aria-hidden="true"></i> </button>    
+
+            </div>
+            <div class="kam glob">
+            <button id="kamien" class="globalek"><i class="fa fa-hand-rock-o" aria-hidden="true"></i> </button>    
+            </div>
+
+        </div>
+        <div class="container-score">
+            <div class="score-your glob2">
+                <p>Twój wynik:</p>
+                  <span id="wynik">0</span>
+
+            </div>
+            <div class="score-comp glob2">
+                <p>Wynik przeciwnika:</p> 
+                <span id="wynik-przeciwnik">0</span>
+            </div>
+            
+        </div>
+        <div class="remis-container">
+            <p>Remisy:</p> <span id="remis">0</span>
+        </div>
+    </header>
+    <script src="js.js"></script>
+</body>
+</html>
